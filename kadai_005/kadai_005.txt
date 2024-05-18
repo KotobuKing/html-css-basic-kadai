@@ -1,0 +1,24 @@
+kotobuking@KotobuKiMacBook-Pro git_challenge % git init
+Initialized empty Git repository in /Users/TEST/git_challenge/.git/
+kotobuking@KotobuKiMacBook-Pro git_challenge % git add .
+kotobuking@KotobuKiMacBook-Pro git_challenge % git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   hello_world.txt
+
+kotobuking@KotobuKiMacBook-Pro git_challenge % git commit -m "hello world.txtを 追加"
+[main (root-commit) d1b2de7] hello world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+kotobuking@KotobuKiMacBook-Pro git_challenge % git add .
+kotobuking@KotobuKiMacBook-Pro git_challenge % git commit -m "hello_world.txtを 編集"
+[main 28aaeaf] hello_world.txtを編集
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+kotobuking@KotobuKiMacBook-Pro git_challenge % git log --oneline
+28aaeaf (HEAD -> main) hello_world.txtを編集
+d1b2de7 hello world.txtを追加
+kotobuking@KotobuKiMacBook-Pro git_challenge % 
